@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recent_blogs",
+  "info": {
+    "singularName": "recent-blog",
+    "pluralName": "recent-blogs",
+    "displayName": "Recent_Blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    }
+  }
+}

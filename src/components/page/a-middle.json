@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_a_middles",
+  "info": {
+    "displayName": "A_Middle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "left_desc": {
+      "type": "richtext"
+    },
+    "right_desc": {
+      "type": "richtext"
+    }
+  }
+}

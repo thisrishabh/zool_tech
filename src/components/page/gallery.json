@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_galleries",
+  "info": {
+    "displayName": "gallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "sub_title": {
+      "type": "text"
+    },
+    "img_url": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_title": {
+      "type": "text"
+    },
+    "header_img": {
+      "type": "string"
+    },
+    "middle": {
+      "displayName": "A_Middle",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.a-middle"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.gallery"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.team"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

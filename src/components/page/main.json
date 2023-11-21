@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_mains",
+  "info": {
+    "displayName": "main",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "sub_title": {
+      "type": "text"
+    }
+  }
+}
